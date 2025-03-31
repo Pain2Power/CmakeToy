@@ -1,2 +1,2 @@
 # toy-cmake-proj
-cmake toy project
+This is cmake toy project
