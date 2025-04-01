@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/heemang/Documents/GitHub/Personal Projects/CMake Projects/toy-cmake-proj/MyCppCode'
+relocations:     []
+...
