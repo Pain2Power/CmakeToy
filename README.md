@@ -12,7 +12,7 @@ This is cmake toy project
 
 ### Toy1 - Hello World
 
-    A simple C++ project that prints "Hello, World!" to the console.
+    "Hello, World!"를 콘솔에 출력
 
 ### Toy2 - CTest
 
