@@ -6,6 +6,9 @@ This is cmake toy project
 
 외부 튜토리얼을 수집
 
+- modern-cmake 튜토리얼
+  1. simple project
+
 ### step1
 
 ## Projects
