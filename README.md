@@ -23,7 +23,7 @@ This is cmake toy project
 
 ### Toy - Library Link
 
-    A project demonstrating how to link external libraries (e.g., Boost) using CMake.
+    Boost와 같은 외부 라이브러리를 CMake를 사용하여 연결하는 방법을 시연하는 프로젝트
 
 ### Toy - Multiple Directory
 
