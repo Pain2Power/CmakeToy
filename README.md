@@ -27,52 +27,52 @@ This is cmake toy project
 
 ### Toy - Multiple Directory
 
-    A project structured with multiple directories, managed using CMake.
+    여러 개의 디렉토리로 구성되고 CMake로 관리되는 프로젝트
 
 ### Toy - Static/Dynamic Library
 
-    A project to create both static and dynamic libraries and link them in CMake.
+    정적 라이브러리와 동적 라이브러리를 모두 생성하고 이를 CMake에서 연결하는 프로젝트
 
 ### Toy - Unit Testing
 
-    Integrating unit tests using GoogleTest or Catch2 within a CMake project.
+    CMake 프로젝트 내에 GoogleTest 또는 Catch2를 사용해 유닛 테스트를 통합하는 작업
 
 ### Toy - Package with CPack
 
-    Creating a package using CPack for installation.
+    설치를 위한 패키지를 CPack을 사용하여 생성하는 작업
 
 ### Toy - Conan Integration
 
-    Managing external dependencies using Conan package manager with CMake.
+    CMake와 함께 Conan 패키지 매니저를 사용하여 외부 의존성을 관리하는 작업
 
 ### Toy - Code Coverage
 
-    Generating a code coverage report using GCov, LCOV, and CMake.
+    GCov, LCOV, CMake를 사용하여 코드 커버리지 리포트를 생성하는 작업
 
 ### Toy - CUDA Project
 
-    uilding a GPU-based project using CUDA with CMake.
+    CMake를 사용해 CUDA 기반 GPU 프로젝트를 빌드하는 작업
 
 ### Toy - Build Configuration
 
-    Managing build types (Debug/Release) with different configurations in CMake.
+    CMake에서 Debug/Release와 같은 빌드 타입을 다르게 구성하여 관리하는 작업
 
 ### Toy - Compiler Options
 
-    Setting up build configurations for GCC, Clang, and MSVC.
+    GCC, Clang, MSVC용 빌드 설정을 구성하는 작업
 
 ### Toy - Build Cache
 
-    Using ccache to optimize build times within CMake.
+    CMake 내에서 ccache를 사용해 빌드 시간을 최적화하는 작업
 
 ### Toy - Documentation
 
-    Automating code documentation generation with Doxygen and CMake.
+    Doxygen과 CMake를 활용하여 코드 문서를 자동으로 생성하는 작업
 
 ### Toy - Plugin System
 
-    Developing a plugin-based architecture managed by CMake.
+    CMake로 관리되는 플러그인 기반 아키텍처를 개발하는 작업
 
 ### Toy - CI/CD Integration
 
-    Automating the build process with GitHub Actions and CMake.
+    GitHub Actions와 CMake를 이용해 빌드 프로세스를 자동화하는 작업
