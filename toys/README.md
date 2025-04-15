@@ -1,20 +1,3 @@
-# toy-cmake-proj
-
-This is cmake toy project
-<<<<<<< Updated upstream
-
-## Tutorial
-
-외부 튜토리얼을 수집
-
-- modern-cmake 튜토리얼
-  1. simple project
-  2. extended-project
-현재 진행중
-### step1
-
-## Projects
-
 ### Toy1 - Hello World
 
     "Hello, World!"를 콘솔에 출력
@@ -27,7 +10,7 @@ This is cmake toy project
 
     Boost와 같은 외부 라이브러리를 CMake를 사용하여 연결하는 방법을 시연하는 프로젝트
 
-### Toy - Multiple Directory
+### Toy4 - Multiple Directory
 
     여러 개의 디렉토리로 구성되고 CMake로 관리되는 프로젝트
 
@@ -78,5 +61,3 @@ This is cmake toy project
 ### Toy - CI/CD Integration
 
     GitHub Actions와 CMake를 이용해 빌드 프로세스를 자동화하는 작업
-=======
->>>>>>> Stashed changes
