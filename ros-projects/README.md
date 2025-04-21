@@ -10,6 +10,6 @@
 
 ### Version
 
-    ros2 jazzy
+    ros2 humble (~2027)
 
 ### Result
