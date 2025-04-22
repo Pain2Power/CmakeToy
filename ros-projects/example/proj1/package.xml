@@ -8,11 +8,14 @@
     <license>Apache license 2.0</license>
     <author>pain2power</author>
     <author email="test@gmail.com">pain2power</author>
-    <buildtool_depend>ament_cmake</buildtool_depend>
     <depend>rclcpp</depend>
-    <test_depend>ament_lint_auto</test_depend>
-    <test_depend>ament_lint_common</test_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_export_depend>roscpp</build_export_depend>
+    <build_export_depend>geometry_msgs</build_export_depend>
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>geometry_msgs</exec_depend>
     <export>
-        <build_type>ament_cmake</build_type>
     </export>
 </package>

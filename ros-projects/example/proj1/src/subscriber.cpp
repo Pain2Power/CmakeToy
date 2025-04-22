@@ -2,11 +2,10 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-#include <turtlesim/msg/pose.hpp>
 
 using std::placeholders::_1;
 
-// Sub topic name : /turtle1/pose, topic type : turtlesim/msg/Pose
+// Sub topic name : /turtle1/pose, topic type : /msg/Pose
 
 class Subscriber : public rclcpp::Node
 {
@@ -15,7 +14,7 @@ public:
         : Node("proj1_subscriber")
     {
         auto qos_profile = rclcpp::QoS(rclcpp::KeepLast(10));
-        subscriber_ = this->create_subscription<turtlesim::msg::Pose>(
+        subscriber_ = this->create_subscription<::msg::Pose>(
             "/turtle1/pose",
             qos_profile,
             std::bind(&Subscriber::subscribe_topic_message, this, _1));
