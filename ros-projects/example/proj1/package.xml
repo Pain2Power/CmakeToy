@@ -1,21 +1,18 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-    <name>proj1</name>
-    <version>0.1.0</version>
-    <description>ROS 2 rclcpp basic package for the ROS 2 seminar</description>
-    <maintainer email="test@gmail.com">Test</maintainer>
-    <license>Apache license 2.0</license>
-    <author>pain2power</author>
-    <author email="test@gmail.com">pain2power</author>
-    <depend>rclcpp</depend>
+  <name>proj1</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="40458684+Pain2Power@users.noreply.github.com">heemang</maintainer>
+  <license>Apache-2.0</license>
 
-    <build_depend>roscpp</build_depend>
-    <build_depend>geometry_msgs</build_depend>
-    <build_export_depend>roscpp</build_export_depend>
-    <build_export_depend>geometry_msgs</build_export_depend>
-    <exec_depend>roscpp</exec_depend>
-    <exec_depend>geometry_msgs</exec_depend>
-    <export>
-    </export>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
