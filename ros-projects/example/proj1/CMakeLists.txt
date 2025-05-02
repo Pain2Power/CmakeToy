@@ -9,18 +9,24 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(talker src/publisher_member_function.cpp)
-add_executable(listen src/subscriber_member_function.cpp)
+add_executable(talker src/topic_test/publisher_member_function.cpp)
+add_executable(listen src/topic_test/subscriber_member_function.cpp)
+add_executable(turtle_pose_listen src/turtlesim_listen/subscriber_turtle_pose_function.cpp)
+
 ament_target_dependencies(talker rclcpp std_msgs)
 ament_target_dependencies(listen rclcpp std_msgs)
+ament_target_dependencies(turtle_pose_listen rclcpp std_msgs turtlesim)
 
 install(TARGETS
   talker
   listen
+  turtle_pose_listen
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

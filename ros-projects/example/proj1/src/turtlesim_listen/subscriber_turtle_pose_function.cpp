@@ -20,17 +20,17 @@ public:
     }
 
 private:
-    void topic_callback(const std_msgs::msg::String &msg) const
+    void topic_callback(const turtlesim::msg::Pose &msg) const
     {
-        RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+        RCLCPP_INFO(this->get_logger(), "x: %.2f, y: %.2f, theta: %.2f", msg.x, msg.y, msg.theta);
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr subscription_;
 };
 
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<MinimalSubscriber>());
+    rclcpp::spin(std::make_shared<TurtlePoseSubscriber>());
     rclcpp::shutdown();
     return 0;
 }
