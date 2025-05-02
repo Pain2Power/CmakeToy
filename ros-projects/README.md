@@ -42,3 +42,5 @@ start turtlesim node
 ```bash
 $ ros2 run turtlesim turtlesim_node
 ```
+
+![proj1-result](./example/img/proj1-result.gif)
