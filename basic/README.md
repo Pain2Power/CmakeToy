@@ -1,12 +1,12 @@
-### Toy1 - Hello World
+### [x] Toy1 - Hello World 
 
     "Hello, World!"를 콘솔에 출력
-
-### Toy2 - CTest
+    
+### [x] Toy2 - CTest
 
     CMake와 함께 사용하는 테스트 도구로, 프로젝트의 테스트를 자동화하고 관리하는 데 사용
 
-### Toy3 - Library Link
+### [x] Toy3 - Library Link
 
     Boost와 같은 외부 라이브러리를 CMake를 사용하여 연결하는 방법을 시연하는 프로젝트
 
